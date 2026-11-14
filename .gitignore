@@ -1,0 +1,23 @@
+# OS & Editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.vscode/*
+!.vscode/extensions.json
+
+# Packaging & Output
+*.intunewin
+Output/
+dist/
+*.log
+*.tmp
+TestResults/
+logs/
+
+# Secrets & Local Config
+.env
+*.pfx
+*.cer
+*.key
+secrets.*
